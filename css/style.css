@@ -361,6 +361,10 @@ ol.listDecimalRow.badge>li:before {
   background: rgba(255, 255, 255, .95);
 }
 
+.index .banner {
+  min-height: 300px;
+}
+
 .index .max_height {
   max-height: 200px;
 }
