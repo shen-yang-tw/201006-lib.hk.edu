@@ -1533,7 +1533,7 @@ ol.listDecimalRow.listBadge.listBadgeDivder>li:after {margin: 0; top: 5px; botto
 }
 #logoMenuBar>div:last-child .logo {
     margin-top: -7px;
-    max-height: 47px;
+    max-height: 100px;
 }
 
 }
