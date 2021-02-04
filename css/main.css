@@ -1705,14 +1705,43 @@ ol.listDecimalRow.listBadge.listBadgeDivder>li:after {margin: 0; top: 5px; botto
 }
 
 /* logo block width */
+#logoMenuBar {
+  justify-content: space-between;
+}
+#logoMenuBar>div {
+  width: auto;
+}
+#logoMenuBar>div:first-child {
+  flex-grow: 1;
+}
+#logoMenuBar>div:first-child>div.uk-grid>div:first-child {
+  width: 150px;
+  flex-grow: 1;
+}
+#logoMenuBar>div:first-child>div.uk-grid>div:last-child {
+  width: calc(100% - 150px);
+}
+/* #logoMenuBar>div:last-child, #logoMenuBar>div:first-child {
+  width: auto;
+} */
 @media (min-width: 960px) {
-  #logoMenuBar>div:first-child>div:first-child {
+  /* #logoMenuBar>div:first-child>div:first-child {
     width: calc(100%*2/3);
+  } */
+  #logoMenuBar>div:first-child>div.uk-grid>div {
+    width: auto !important;
+    max-width: 400px;
   }
+  /* #logoMenuBar>div:first-child>div.uk-grid>div:last-child {
+    width: calc(100% - 150px);
+  }   */
 }
 @media (min-width: 1200px) {
-  #logoMenuBar>div:first-child>div:first-child {
+  /* #logoMenuBar>div:first-child>div:first-child {
     width: calc(100%/2);
+  } */
+  #logoMenuBar>div:first-child>div.uk-grid>div {
+    max-width: 500px;
   }
 }
 /* logo block width */

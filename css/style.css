@@ -308,8 +308,10 @@ ol.listDecimalRow.badge>li:before {
 /* End Uikit Style
 ---------------------------------------------------- */
 
-.logo img {
-  max-height: 100px;
+@media (min-width: 960px) {
+  #logoMenuBar>div:first-child>div.uk-grid>div {
+    max-width: 290px;
+  }
 }
 
 
